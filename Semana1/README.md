@@ -7,3 +7,7 @@
 	+ Crear usuarios.
 	+ Configurar carpetas compartidas y acceso remoto
 
+## Resolución
+### Descargar VirtualBox y Un Sistema Operativo Linux (Ubuntu)
+
+
