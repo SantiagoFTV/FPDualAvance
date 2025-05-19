@@ -28,3 +28,4 @@
 ##### Utilizamos el comando sudo adduser para crear un nuevo usuario
 	+ Sudo nos permite acceder como root
  ![Image](https://github.com/user-attachments/assets/6de18549-105b-4c49-a207-290dbde7a514)
+ ![Image](https://github.com/user-attachments/assets/b26eb0a8-d690-41a0-bc8a-3353fededafb)
