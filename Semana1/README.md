@@ -43,10 +43,14 @@
 <img src="https://github.com/user-attachments/assets/daabc040-b08e-4a50-aed4-c0c6d75164a6" width="800" height="400" />
 
 #### 2. Asignar permisos personalizados
-	+ Comando chmod para cambiar los permisos.
- 	+ Con el comando useradd para crear nuevo usuarios y groupadd para crear un nuevo grupo.
+	+ Comando chmod para cambiar los permisos de escritura, lectura y visualización.
+ 	+ Comando chown para cambiar propietario.
+  	+ Comando chgrp para cambiar de grupo.
+ 	+ Comando groupadd para crear un nuevo grupo.
   	+ Comando sudo usermod -aG nombreDelGrupo NombreDelUsuario para agregar al usuario al grupo.
 <img src="https://github.com/user-attachments/assets/0a16cb91-e790-4218-ada3-f2d1f0caad9c" width="800" height="100" />
+<img src="https://github.com/user-attachments/assets/fe31b0a9-a9e8-4010-8d4a-6583b2388f7c" width="800" height="100" />
+
    
    
 
