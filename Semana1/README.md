@@ -35,4 +35,11 @@
 ##### Tareas:
 	+ Crear un árbol de directorios que simule departamentos de una empresa.
  	+ Asignar permisos personalizados a grupos y usuario.
+### Resolución
+#### 1. Crear un árbol de directorios
+	+ Comando mkdir nos permite crear directorios dentro del sistema.
+ 	+ Creamos carpetas dentro de otras.
+  	+ Con el comando tree podremos visualizar todas las carpetas como si fuera un árbol.
+<img src="https://github.com/user-attachments/assets/bb852ff0-1a02-4b2c-85db-54f39fe56c9f" width="800" height="500" />
+<img src="https://github.com/user-attachments/assets/f4ba3147-dd3d-405e-9bab-f2a80002285f" width="800" height="500" />
  
