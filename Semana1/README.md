@@ -41,5 +41,9 @@
  	+ Creamos carpetas dentro de otras.
   	+ Con el comando tree podremos visualizar todas las carpetas como si fuera un árbol.
 <img src="https://github.com/user-attachments/assets/bb852ff0-1a02-4b2c-85db-54f39fe56c9f" width="800" height="200" />
-<img src="https://github.com/user-attachments/assets/f4ba3147-dd3d-405e-9bab-f2a80002285f" width="800" height="300" />
+<img src="https://github.com/user-attachments/assets/daabc040-b08e-4a50-aed4-c0c6d75164a6" width="800" height="300" />
+
+#### 2. Asignar permisos personalizados
+	+ Comando chmod para cambiar los permisos.
+
  
