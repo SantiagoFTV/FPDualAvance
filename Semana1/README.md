@@ -9,5 +9,6 @@
 
 ## Resolución
 ### Descargar VirtualBox y Un Sistema Operativo Linux (Ubuntu)
+![Image](https://github.com/user-attachments/assets/a5879ea8-bd11-49e3-b1f1-5811e37ffe05)
 
 
