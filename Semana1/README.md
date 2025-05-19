@@ -29,4 +29,10 @@
 	+ Sudo nos permite acceder como root
  <img src="https://github.com/user-attachments/assets/6de18549-105b-4c49-a207-290dbde7a514" width="800" height="500" />
  <img src="https://github.com/user-attachments/assets/b26eb0a8-d690-41a0-bc8a-3353fededafb" width="800" height="500" />
+
+### Ejercicio 1.2: Gestión del sistema de archiv
+#### Objetivo: Objetivo: Trabajar con permisos, carpetas, enlaces simbólicos y estructuras jerárquicas en Linux
+##### Tareas:
+	+ Crear un árbol de directorios que simule departamentos de una empresa.
+ 	+ Asignar permisos personalizados a grupos y usuario
  
