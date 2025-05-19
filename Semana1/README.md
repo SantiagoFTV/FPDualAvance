@@ -1,7 +1,7 @@
 # Semana 1: Fundamentos técnicos y herramientas profesionales
 ## Ejercicios Prácticos:
 ### Ejercicio 1.1: Instalación y configuración de sistemas operativos
-#### Objetivo: Instalar una distribución de Linux sin GUI (interfaz gráfica) en entornos virtualizados (VirtualBox
+#### Objetivo: Instalar una distribución de Linux sin GUI (interfaz gráfica) en entornos virtualizados (VirtualBox)
 ##### Tareas:
 	+ Asignar recursos adecuada.
 	+ Crear usuarios.
