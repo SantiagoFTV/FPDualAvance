@@ -1,4 +1,4 @@
-#<p><Strong>PLAN DE FORMACIÓN INTERNO - FP DUAL</strong></p>
+#**PLAN DE FORMACIÓN INTERNO - FP DUAL**
 # Semana 1: Fundamentos técnicos y herramientas profesionales
 ## Ejercicios Prácticos:
 ### Ejercicio 1.1: Instalación y configuración de sistemas operativos
