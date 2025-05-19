@@ -23,3 +23,8 @@
 
 #### 5. Ejecutar máquina virtual e instalar el Sistema operativo
 ![Image](https://github.com/user-attachments/assets/fc0153e5-31d3-40b4-b133-e22fb12ad7c6)
+
+#### 6. Abrir terminal para empezar a ejecutar comando
+##### Utilizamos el comando sudo adduser para crear un nuevo usuario
+	+ Sudo nos permite acceder como root
+ ![Image](https://github.com/user-attachments/assets/6de18549-105b-4c49-a207-290dbde7a514)
