@@ -9,7 +9,7 @@
 
 ## Resolución
 #### 1. Descargar VirtualBox y Un Sistema Operativo Linux (Ubuntu)
-![Image](https://github.com/user-attachments/assets/a5879ea8-bd11-49e3-b1f1-5811e37ffe05)
+![Image](https://github.com/user-attachments/assets/a5879ea8-bd11-49e3-b1f1-5811e37ffe05 | width=100 height=100)
 
 #### 2. Instalar VirtualBox y agregar una nueva máquina con el sistema Linux
 ![Image](https://github.com/user-attachments/assets/7ffa5911-391f-4ee9-9d12-a4b3b41bebc3)
