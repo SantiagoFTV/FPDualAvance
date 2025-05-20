@@ -91,6 +91,14 @@
 <img src="https://github.com/user-attachments/assets/0a6a0b32-9d25-4fea-a70f-ee9dcce39482" width="600" height="400" />
 
 #### 3. Crear ramas, fusionarlas y resolución de conflictos simples.
+	+ Comando "git branch nombreRama".
+ 	+ Comando "git checkout nombreRama" para ingresar a la rama.
+  	+ Comando "git merge nombreRama" desde el main para fusionarlo.
+  <img src="https://github.com/user-attachments/assets/358b4d31-a01d-4c51-89a8-d915e0ed7a6f" width="600" height="400" />
+  <img src="https://github.com/user-attachments/assets/f1cbc275-546e-42de-8763-2c4ff856619d" width="600" height="400" />
+  <img src="https://github.com/user-attachments/assets/bc404fba-d715-4d48-9929-321aab2c0363" width="600" height="400" />
+
+
 	+ Con el comando vim podemos modificar un archivo 
 <img src="https://github.com/user-attachments/assets/13a05a3f-d9d7-4ccf-be0c-64bb13563b11" width="600" height="400" />
 
