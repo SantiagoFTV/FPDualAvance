@@ -72,11 +72,11 @@
 	+ Debemos crear un repositorio dentro de Github.
 	+ Debemos descargar e instalar Git, el cual nos incluye Gitbash y GitGui.
  	+ Dentro de GitGui debemos crear nuestra llave SSH para poder enlazar Git con nuestro repositorio en Github.
-  	+ Luego nos pedira el enlace SSH que se encuetra en nuestro repositorio con el comando "git add remote origin 'enlace' ".
-      	+ Luego con el comando "git config --global email@email.com" y "git config --global username" para enlazar nuestro correo y nombrar el repositorio.
-  	+ Crearemos una carpeta en nuestro ordenador y accedemos desde gitBash y utilizamos el comnado init para 
+	+ Luego nos pedira el enlace SSH que se encuetra en nuestro repositorio con el comando "git add remote origin 'enlace' ".
+	+ Luego con el comando "git config --global email@email.com" y "git config --global username" para enlazar nuestro correo y nombrar el repositorio.
+	+ Crearemos una carpeta en nuestro ordenador y accedemos desde gitBash y utilizamos el comnado init para 
    	  inicializarlo como nuestro repositorio.
-      	+ Esta carpeta incluira un archivo .git.
+	+ Esta carpeta incluira un archivo .git.
     
 <img src="https://github.com/user-attachments/assets/7d6e5922-28f6-4947-ac04-ec99e534b8b8" width="600" height="300" />
 
