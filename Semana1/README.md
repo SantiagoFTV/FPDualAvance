@@ -123,7 +123,8 @@
 	+ Con el comando SELECT podemos seleccionar los datos que queremos mostrar de una tabla dentro de la BBDD.
 <img src="https://github.com/user-attachments/assets/fbcdd19d-cd89-458c-9cda-b3e5a5c83ba7" width="600" height="200" />
 
-
+ 	+ Con el comando NATURAL JOIN podemos fusionar las tablas en una sola con todos los datos.
+<img src="https://github.com/user-attachments/assets/de793443-d1f3-4ea4-a7bf-88c95704165e" width="600" height="200" />
 
 
     
