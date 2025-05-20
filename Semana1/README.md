@@ -119,9 +119,11 @@
 #### 2. Insertas registro
 <img src="https://github.com/user-attachments/assets/c9794c78-247c-4a76-a29b-ae3f2da127f5" width="600" height="200" />
 
+#### 3. Consultas con Select y Join
+	+ Con el comando SELECT podemos seleccionar los datos que queremos mostrar de una tabla dentro de la BBDD.
+<img src="https://github.com/user-attachments/assets/fbcdd19d-cd89-458c-9cda-b3e5a5c83ba7" width="600" height="200" />
 
 
-  
 
 
     
