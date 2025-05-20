@@ -48,7 +48,7 @@
  	+ Comando chown para cambiar propietario.
   	+ Comando chgrp para cambiar de grupo.
  	+ Comando groupadd para crear un nuevo grupo.
-  	+ Comando sudo usermod -aG nombreDelGrupo NombreDelUsuario para agregar al usuario al grupo.
+  	+ Comando sudo usermod -aG nombreDelGrupo NombreDelUsuario para agregar un usuario al grupo.
 <img src="https://github.com/user-attachments/assets/0a16cb91-e790-4218-ada3-f2d1f0caad9c" width="800" height="100" />
 <img src="https://github.com/user-attachments/assets/fe31b0a9-a9e8-4010-8d4a-6583b2388f7c" width="800" height="100" />
 
