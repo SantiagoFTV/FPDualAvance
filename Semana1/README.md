@@ -28,7 +28,7 @@
 #### 6. Abrir terminal para empezar a ejecutar comando
 ##### Utilizamos el comando sudo adduser para crear un nuevo usuario
 	+ Sudo nos permite acceder como root
- <img src="https://github.com/user-attachments/assets/6de18549-105b-4c49-a207-290dbde7a514" width="800" height="500" />
+ <img src="https://github.com/user-attachments/assets/6de18549-105b-4c49-a207-290dbde7a514" width="800" height="400" />
  <img src="https://github.com/user-attachments/assets/b26eb0a8-d690-41a0-bc8a-3353fededafb" width="400" height="300" />
 
 #### 7. Configuración de carpetas compartidas y acceso remoto
@@ -36,7 +36,7 @@
  	+ Seleccionamos la carpeta o pegamos directamente la ruta de acceso a esta carpeta dentro de nuestro escritorio principal.
   	+ Dentro de la máquina virtual colocamos la ruta de la carpeta con la cual se va a comunicar el sistema princiapl.
 
-<img src="https://github.com/user-attachments/assets/458311c9-447e-43df-957a-8dae9141b4b6" width="400" height="300" />
+<img src="https://github.com/user-attachments/assets/458311c9-447e-43df-957a-8dae9141b4b6" width="600" height="400" />
 
  
 
