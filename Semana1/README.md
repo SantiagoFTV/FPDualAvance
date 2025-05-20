@@ -94,9 +94,9 @@
 	+ Con el comando vim podemos modificar un archivo 
 <img src="https://github.com/user-attachments/assets/13a05a3f-d9d7-4ccf-be0c-64bb13563b11" width="600" height="400" />
 
-	+ Una solución rapida para el repositorio es hacer un "git clone 'git@github.com:SantiagoFTV/FPDualAvance.git' " el cual nos permite clonar 
- 	  el repositorio tal como está a nuestro ordenador desde el último cambio subido a GitHub.
-<img src="https://github.com/user-attachments/assets/4ae43f8a-2dc1-48d7-b5a2-a6a561a945c0" width="600" height="400" />
+	+ Una solución rapida para el repositorio es hacer un "git clone 'git@github.com:SantiagoFTV/FPDualAvance.git' " 
+ 	  el cual nos permite clonar el repositorio tal como está a nuestro ordenador desde el último cambio subido a GitHub.
+<img src="https://github.com/user-attachments/assets/4ae43f8a-2dc1-48d7-b5a2-a6a561a945c0" width="700" height="300" />
 
     
 
