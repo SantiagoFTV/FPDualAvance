@@ -34,7 +34,7 @@
 #### 7. Configuración de carpetas compartidas y acceso remoto
 	+ Dentro de la máquina virtual en el apartado de dispositivos accedemos a carpetas compartidas.
  	+ Seleccionamos la carpeta o pegamos directamente la ruta de acceso a esta carpeta dentro de nuestro escritorio principal.
-  	+
+  	+ Dentro de la máquina virtual colocamos la ruta de la carpeta con la cual se va a comunicar el sistema princiapl.
 
 <img src="https://github.com/user-attachments/assets/458311c9-447e-43df-957a-8dae9141b4b6" width="400" height="300" />
 
