@@ -61,6 +61,26 @@
 <img src="https://github.com/user-attachments/assets/0a16cb91-e790-4218-ada3-f2d1f0caad9c" width="800" height="100" />
 <img src="https://github.com/user-attachments/assets/fe31b0a9-a9e8-4010-8d4a-6583b2388f7c" width="800" height="100" />
 
+### Ejercicio 1.3: Iniciación en Git
+#### Objetivo: Usar Git como herramienta de control de versiones.
+##### Tareas:
+	+ Inicializar un repositorio local y enlazarlo con GitHub.
+	+ Realizar commits con mensajes claros.
+	+ Crear ramas, fusionarlas y resolver conflictos simples Asignar recursos adecuados.
+### Resolución
+#### 1. Iniciar un repositoro Git
+	+ Debemos crear un repositorio dentro de Github.
+	+ Debemos descargar e instalar Git, el cual nos incluye Gitbash y GitGui.
+ 	+ Dentro de GitGui debemos crear nuestra llave SSH para poder enlazar Git con nuestro repositorio en Github.
+  	+ Crearemos una carpeta en nuestro ordenador y accedemos desde gitBash y utilizamos el comnado init para inicializarlo como nuestro repositorio.
+   <img src="https://github.com/user-attachments/assets/7d6e5922-28f6-4947-ac04-ec99e534b8b8" width="400" height="200" />
+   
+   	+ Crearemos una carpeta para poder realizar nuestro primer commit "git commit -m "message". 
+    	+ Antes de realizar un commit debemos añadir lo que hayamos creado en el repositorio con "git add".
+     	+ Luego nos pedira el enlace SSH que se encuetra en nuestro repositorio con el comando "git add remote origin 'enlace' ".
+      	+ Luego con el comando "git config --global email@email.com" y "git config --global username" para enlazar nuestro correo y nombrar el repositorio.
+       	+ Finalmente realizamos un push con el comando "git push -M origin main" para subir el contenido al repositorio ed GitHub.
+
    
    
 
