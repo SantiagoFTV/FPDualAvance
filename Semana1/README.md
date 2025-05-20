@@ -114,10 +114,10 @@
  	+ Ejecutar consultas SELECT, JOIN y filtros básicos Asignar recursos adecuados.
   
 #### 1. Crear tablas en mysql workbench
-<img src="https://github.com/user-attachments/assets/3fe8071a-05ba-4f9a-997e-0befab90d2d6" width="700" height="200" />
+<img src="https://github.com/user-attachments/assets/3fe8071a-05ba-4f9a-997e-0befab90d2d6" width="600" height="400" />
 
 #### 2. Insertas registro
-<img src="https://github.com/user-attachments/assets/c9794c78-247c-4a76-a29b-ae3f2da127f5" width="700" height="200" />
+<img src="https://github.com/user-attachments/assets/c9794c78-247c-4a76-a29b-ae3f2da127f5" width="600" height="200" />
 
 
 
