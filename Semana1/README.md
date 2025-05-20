@@ -84,9 +84,9 @@
 	+ Con el comando "git status" verificamos cuales han sido los cambios dentro del repositorio.
 <img src="https://github.com/user-attachments/assets/7904f61e-bf2a-4f88-b81e-681dcb182089" width="600" height="300" />
  
-    	+ Antes de realizar un commit debemos añadir lo que hayamos creado en el repositorio con "git add".
-     	+ Realizamos el commit con "git commit -m "message".
-      	+ Finalmente realizamos un "git push" para subir el contenido al repositorio en github.
+	+ Antes de realizar un commit debemos añadir lo que hayamos creado en el repositorio con "git add".
+	+ Realizamos el commit con "git commit -m "message".
+	+ Finalmente realizamos un "git push" para subir el contenido al repositorio en github.
 
 <img src="https://github.com/user-attachments/assets/0a6a0b32-9d25-4fea-a70f-ee9dcce39482" width="600" height="400" />
 
