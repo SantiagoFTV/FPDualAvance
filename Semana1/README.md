@@ -31,6 +31,15 @@
  <img src="https://github.com/user-attachments/assets/6de18549-105b-4c49-a207-290dbde7a514" width="800" height="500" />
  <img src="https://github.com/user-attachments/assets/b26eb0a8-d690-41a0-bc8a-3353fededafb" width="400" height="300" />
 
+#### 7. Configuración de carpetas compartidas y acceso remoto
+	+ Dentro de la máquina virtual en el apartado de dispositivos accedemos a carpetas compartidas.
+ 	+ Seleccionamos la carpeta o pegamos directamente la ruta de acceso a esta carpeta dentro de nuestro escritorio principal.
+  	+
+
+<img src="https://github.com/user-attachments/assets/458311c9-447e-43df-957a-8dae9141b4b6" width="400" height="300" />
+
+ 
+
 ### Ejercicio 1.2: Gestión del sistema de archivos
 #### Objetivo: Trabajar con permisos, carpetas, enlaces simbólicos y estructuras jerárquicas en Linux
 ##### Tareas:
