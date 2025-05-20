@@ -72,14 +72,25 @@
 	+ Debemos crear un repositorio dentro de Github.
 	+ Debemos descargar e instalar Git, el cual nos incluye Gitbash y GitGui.
  	+ Dentro de GitGui debemos crear nuestra llave SSH para poder enlazar Git con nuestro repositorio en Github.
-  	+ Crearemos una carpeta en nuestro ordenador y accedemos desde gitBash y utilizamos el comnado init para inicializarlo como nuestro repositorio.
-   <img src="https://github.com/user-attachments/assets/7d6e5922-28f6-4947-ac04-ec99e534b8b8" width="400" height="200" />
-   
-   	+ Crearemos una carpeta para poder realizar nuestro primer commit "git commit -m "message". 
-    	+ Antes de realizar un commit debemos añadir lo que hayamos creado en el repositorio con "git add".
-     	+ Luego nos pedira el enlace SSH que se encuetra en nuestro repositorio con el comando "git add remote origin 'enlace' ".
+  	+ Luego nos pedira el enlace SSH que se encuetra en nuestro repositorio con el comando "git add remote origin 'enlace' ".
       	+ Luego con el comando "git config --global email@email.com" y "git config --global username" para enlazar nuestro correo y nombrar el repositorio.
-       	+ Finalmente realizamos un push con el comando "git push -M origin main" para subir el contenido al repositorio ed GitHub.
+  	+ Crearemos una carpeta en nuestro ordenador y accedemos desde gitBash y utilizamos el comnado init para 
+   	  inicializarlo como nuestro repositorio.
+      	+ Esta carpeta incluira un archivo .git.
+    
+<img src="https://github.com/user-attachments/assets/7d6e5922-28f6-4947-ac04-ec99e534b8b8" width="500" height="200" />
+
+#### 2. Realizar un commit correctamente
+	+ Con el comando "git status" verificamos cuales han sido los cambios dentro del repositorio.
+<img src="https://github.com/user-attachments/assets/7904f61e-bf2a-4f88-b81e-681dcb182089" width="500" height="200" />
+ 
+    	+ Antes de realizar un commit debemos añadir lo que hayamos creado en el repositorio con "git add".
+     	+ Realizamos el commit con "git commit -m "message".
+      	+ Finalmente realizamos un "git push" para subir el contenido al repositorio en github.
+
+<img src="https://github.com/user-attachments/assets/0a6a0b32-9d25-4fea-a70f-ee9dcce39482" width="500" height="200" />
+
+
 
    
    
