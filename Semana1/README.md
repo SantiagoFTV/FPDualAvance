@@ -106,6 +106,14 @@
  	  el cual nos permite clonar el repositorio tal como está a nuestro ordenador desde el último push a GitHub.
 <img src="https://github.com/user-attachments/assets/4ae43f8a-2dc1-48d7-b5a2-a6a561a945c0" width="700" height="300" />
 
+### Ejercicio 1.4: Primera base de datos
+#### Objetivo: Crear una BBDD sencilla con MySQL y realizar consultas básicas.
+##### Tareas:
+	+ Crear tablas "clientes" y "productos".
+	+ Insertar registros simulados.
+ 	+ Ejecutar consultas SELECT, JOIN y filtros básicos Asignar recursos adecuados.
+
+
     
 
    
