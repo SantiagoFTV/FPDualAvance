@@ -78,17 +78,19 @@
    	  inicializarlo como nuestro repositorio.
       	+ Esta carpeta incluira un archivo .git.
     
-<img src="https://github.com/user-attachments/assets/7d6e5922-28f6-4947-ac04-ec99e534b8b8" width="500" height="200" />
+<img src="https://github.com/user-attachments/assets/7d6e5922-28f6-4947-ac04-ec99e534b8b8" width="600" height="300" />
 
 #### 2. Realizar un commit correctamente
 	+ Con el comando "git status" verificamos cuales han sido los cambios dentro del repositorio.
-<img src="https://github.com/user-attachments/assets/7904f61e-bf2a-4f88-b81e-681dcb182089" width="500" height="200" />
+<img src="https://github.com/user-attachments/assets/7904f61e-bf2a-4f88-b81e-681dcb182089" width="600" height="300" />
  
     	+ Antes de realizar un commit debemos añadir lo que hayamos creado en el repositorio con "git add".
      	+ Realizamos el commit con "git commit -m "message".
       	+ Finalmente realizamos un "git push" para subir el contenido al repositorio en github.
 
-<img src="https://github.com/user-attachments/assets/0a6a0b32-9d25-4fea-a70f-ee9dcce39482" width="500" height="200" />
+<img src="https://github.com/user-attachments/assets/0a6a0b32-9d25-4fea-a70f-ee9dcce39482" width="600" height="400" />
+
+#### 3. Crea ramas, fusionarlas y resolución de conflictos simples.
 
 
 
