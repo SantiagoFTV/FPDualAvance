@@ -94,9 +94,9 @@
 	+ Comando "git branch nombreRama".
  	+ Comando "git checkout nombreRama" para ingresar a la rama.
   	+ Comando "git merge nombreRama" desde el main para fusionarlo.
-  <img src="https://github.com/user-attachments/assets/358b4d31-a01d-4c51-89a8-d915e0ed7a6f" width="600" height="400" />
-  <img src="https://github.com/user-attachments/assets/f1cbc275-546e-42de-8763-2c4ff856619d" width="600" height="400" />
-  <img src="https://github.com/user-attachments/assets/bc404fba-d715-4d48-9929-321aab2c0363" width="600" height="400" />
+  <img src="https://github.com/user-attachments/assets/358b4d31-a01d-4c51-89a8-d915e0ed7a6f" width="600" height="100" />
+  <img src="https://github.com/user-attachments/assets/f1cbc275-546e-42de-8763-2c4ff856619d" width="600" height="100" />
+  <img src="https://github.com/user-attachments/assets/bc404fba-d715-4d48-9929-321aab2c0363" width="600" height="300" />
 
 
 	+ Con el comando vim podemos modificar un archivo 
