@@ -50,7 +50,7 @@
 	+ Comando mkdir nos permite crear directorios dentro del sistema.
  	+ Creamos carpetas dentro de otras.
   	+ Con el comando tree podremos visualizar todas las carpetas como si fuera un árbol.
-<img src="https://github.com/user-attachments/assets/daabc040-b08e-4a50-aed4-c0c6d75164a6" width="800" height="400" />
+<img src="https://github.com/user-attachments/assets/daabc040-b08e-4a50-aed4-c0c6d75164a6" width="800" height="500" />
 
 #### 2. Asignar permisos personalizados
 	+ Comando chmod para cambiar los permisos de escritura, lectura y visualización.
