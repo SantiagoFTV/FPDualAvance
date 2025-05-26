@@ -11,3 +11,6 @@ a qué usuario y en qué fecha
 	+ Diagrama E-R y tablas resultantes normalizada
 
 ## Resolución
+#### 1. Creación del modelo E-R en MySql Workbench
+<img src="https://github.com/user-attachments/assets/96afd0d3-2ee1-49af-8321-fc021666e0a2" width="800" height="500" />
+
