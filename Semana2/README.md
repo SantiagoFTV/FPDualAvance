@@ -129,9 +129,10 @@ a qué usuario y en qué fecha
 
 #### 3. Probar consultas con JOIN, ORDER BY y filtros
 #### a. Listar los libros prestados con el nombre del cliente y la fecha del préstamo
- <img src="https://github.com/user-attachments/assets/5f623589-ed72-4341-ab8e-b8c86ed0a326" width="800" height="300" />
+ <img src="https://github.com/user-attachments/assets/5f623589-ed72-4341-ab8e-b8c86ed0a326" width="500" height="300" />
+ 
 #### b. Cantidad de libros prestados por cada cliente
- <img src="https://github.com/user-attachments/assets/1dca72f3-66d9-4aa7-9dae-638f44045262" width="800" height="300" />
+ <img src="https://github.com/user-attachments/assets/1dca72f3-66d9-4aa7-9dae-638f44045262" width="500" height="500" />
 
 
 
