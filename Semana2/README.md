@@ -1,6 +1,7 @@
 # PLAN DE FORMACIÓN INTERNO - FP DUAL
 # Semana 2: Desarrollo de bases de datos y POO
 ## Ejercicios Prácticos:
+
 ### Ejercicio 2.1: Modelo Relacional
 #### Objetivo: 
 Enunciado: Una biblioteca necesita gestionar libros, autores y préstamos. Los 
@@ -14,3 +15,13 @@ a qué usuario y en qué fecha
 #### 1. Creación del modelo E-R en MySql Workbench
 <img src="https://github.com/user-attachments/assets/96afd0d3-2ee1-49af-8321-fc021666e0a2" width="800" height="500" />
 
+### Ejercicio 2.2: Creación de base de datos
+#### Objetivo: Implementar el modelo anterior en MyS
+##### Tareas:
+	+ Crear las tablas y relaciones.
+ 	+ Insertar 5 libros, 3 autores y 4 préstamos.
+	+ Probar consultas con JOIN, ORDER BY y filtros.
+ 
+## Resolución
+#### 1. Creación del modelo E-R en MySql Workbench
+<img src="https://github.com/user-attachments/assets/96afd0d3-2ee1-49af-8321-fc021666e0a2" width="800" height="500" />
