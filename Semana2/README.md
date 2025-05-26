@@ -81,3 +81,58 @@ a qué usuario y en qué fecha
 	);
 <img src="https://github.com/user-attachments/assets/9afe2a50-ef23-4218-9579-ff863b8dcdd1" width="400" height="300" />
 
+#### 2. Insertar libros autores y prestamos.
+
+	use biblioteca;
+	
+	-- Insertar libros
+	INSERT INTO Libros (IdLibro, Titulo, ISBN, Categoria) VALUES
+	(1, 'Cien Años de Soledad', 123456789, 'Novela'),
+	(2, 'Don Quijote de la Mancha', 234567890, 'Clásico'),
+	(3, 'La Sombra del Viento', 345678901, 'Misterio'),
+	(4, 'El Principito', 456789012, 'Ficción'),
+	(5, 'Rayuela', 567890123, 'Literatura');
+	
+	-- Insertar autores
+	INSERT INTO Autores (IdAutor, Nombre, Nacionalidad) VALUES
+	(1, 'Gabriel García Márquez', 'Colombiana'),
+	(2, 'Miguel de Cervantes', 'Española'),
+	(3, 'Julio Cortázar', 'Argentina');
+	
+	-- Insertar relación libro-autor
+	INSERT INTO LibroAutor (IdLibro, IdAutor) VALUES
+	(1, 1), -- Cien Años de Soledad - Gabriel García Márquez
+	(2, 2), -- Don Quijote de la Mancha - Miguel de Cervantes
+	(3, 1), -- La Sombra del Viento (ficticio) - Gabriel García Márquez
+	(4, 1), -- El Principito (ficticio) - Gabriel García Márquez
+	(5, 3); -- Rayuela - Julio Cortázar
+	
+	-- Insertar clientes
+	INSERT INTO Clientes (IdCliente, Nombre, DNI) VALUES
+	(1, 'Ana Pérez', 12345678),
+	(2, 'Luis Gómez', 87654321);
+	
+	-- Insertar préstamos
+	INSERT INTO Prestamos (IdPrestamo, IdCliente, Fecha) VALUES
+	(1, 1, '2025-05-01'),
+	(2, 2, '2025-05-02'),
+	(3, 1, '2025-05-10'),
+	(4, 2, '2025-05-15');
+	
+	-- Relación préstamos-libros
+	INSERT INTO PrestamoLibro (IdPrestamo, IdLibro) VALUES
+	(1, 1), -- Ana Pérez pidió "Cien Años de Soledad"
+	(1, 2), -- Ana Pérez también pidió "Don Quijote"
+	(2, 3), -- Luis Gómez pidió "La Sombra del Viento"
+	(3, 5), -- Ana Pérez pidió "Rayuela"
+	(4, 4); -- Luis Gómez pidió "El Principito"
+
+#### 3. Probar consultas con JOIN, ORDER BY y filtros
+#### a. Listar los libros prestados con el nombre del cliente y la fecha del préstamo
+ <img src="https://github.com/user-attachments/assets/5f623589-ed72-4341-ab8e-b8c86ed0a326" width="800" height="300" />
+#### b. Cantidad de libros prestados por cada cliente
+ <img src="https://github.com/user-attachments/assets/1dca72f3-66d9-4aa7-9dae-638f44045262" width="800" height="300" />
+
+
+
+
