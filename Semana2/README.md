@@ -137,4 +137,15 @@ a qué usuario y en qué fecha
 #### c. Categoría 'Novela' que han sido prestados
 <img src="https://github.com/user-attachments/assets/44a5d92e-5e8e-4831-b24f-ad47bc758b0e" width="500" height="400" />
 
+### Ejercicio 2.3: Aplicación Java con conexión a BD
+#### Objetivo: Crear una app Java que permita consultar y registrar préstamos.
+##### Tareas:
+
+	+ Usar JDBC para conectar con la BD.
+ 	+ Crear clases Libro, Usuario y Prestam
+  	+ Validar entradas, capturar excepciones y mostrar mensajes de error claros
+   
+## Resolución
+#### 1. Usar JDBC para conectar con la BD.
+
 
