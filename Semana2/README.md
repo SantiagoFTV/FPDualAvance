@@ -79,5 +79,5 @@ a qué usuario y en qué fecha
 	    FOREIGN KEY (IdPrestamo) REFERENCES Prestamos(IdPrestamo),
 	    FOREIGN KEY (IdLibro) REFERENCES Libros(IdLibro)
 	);
-<img src="https://github.com/user-attachments/assets/9afe2a50-ef23-4218-9579-ff863b8dcdd1" width="400" height="400" />
+<img src="https://github.com/user-attachments/assets/9afe2a50-ef23-4218-9579-ff863b8dcdd1" width="400" height="300" />
 
