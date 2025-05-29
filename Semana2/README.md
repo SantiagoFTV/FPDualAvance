@@ -185,7 +185,9 @@ a qué usuario y en qué fecha
 	}
 
 </details>
+
 ##### Clase Usuario
+
 <details>
 
 	public class Usuario {
