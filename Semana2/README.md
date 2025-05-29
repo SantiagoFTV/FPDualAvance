@@ -147,41 +147,275 @@ a qué usuario y en qué fecha
    
 ## Resolución
 #### 1. Programa en Java
+##### Clase Libro
 <details>
 
-public class Libro {
-    private long id;
-    private String titulo;
-    private String autor;
-    private String usuario;
+	public class Libro {
+	    private long id;
+	    private String titulo;
+	    private String autor;
+     	    private String usuario;
+	
+	    public Libro(long id, String titulo, String autor, String usuario) {
+	        this.id = id;
+	        this.titulo = titulo;
+	        this.autor = autor;
+	        this.usuario = usuario;
+	    }
+	
+	    public long getId() { return id; }
+	    public String getTitulo() { return titulo; }
+	    public String getAutor() { return autor; }
+	    public String getUsuario() { return usuario; }
+	
+	    public void setId(long id) { this.id = id; }
+	    public void setTitulo(String titulo) { this.titulo = titulo; }
+	    public void setAutor(String autor) { this.autor = autor; }
+	    public void setUsuario(String usuario) { this.usuario = usuario; }
+	
+	    @Override
+	    public String toString() {
+	        return "Libro{" +
+	                "id=" + id +
+	                ", titulo='" + titulo + '\'' +
+	                ", autor='" + autor + '\'' +
+	                ", usuario='" + usuario + '\'' +
+	                '}';
+	    }
+	}
 
-    public Libro(long id, String titulo, String autor, String usuario) {
+</details>
+##### Clase Usuario
+<details>
+
+	public class Usuario {
+    	private long id;
+    	private String nombreUsuario;
+    	private String email;
+
+    public Usuario(long id, String nombreUsuario, String email) {
         this.id = id;
-        this.titulo = titulo;
-        this.autor = autor;
-        this.usuario = usuario;
+        this.nombreUsuario = nombreUsuario;
+        this.email = email;
     }
 
     public long getId() { return id; }
-    public String getTitulo() { return titulo; }
-    public String getAutor() { return autor; }
-    public String getUsuario() { return usuario; }
+    public String getNombreUsuario() { return nombreUsuario; }
+    public String getEmail() { return email; }
 
     public void setId(long id) { this.id = id; }
-    public void setTitulo(String titulo) { this.titulo = titulo; }
-    public void setAutor(String autor) { this.autor = autor; }
-    public void setUsuario(String usuario) { this.usuario = usuario; }
+    public void setNombreUsuario(String nombreUsuario) { this.nombreUsuario = nombreUsuario; }
+    public void setEmail(String email) { this.email = email; }
 
     @Override
     public String toString() {
-        return "Libro{" +
+        return "Usuario{" +
                 "id=" + id +
-                ", titulo='" + titulo + '\'' +
-                ", autor='" + autor + '\'' +
-                ", usuario='" + usuario + '\'' +
+                ", nombreUsuario='" + nombreUsuario + '\'' +
+                ", email='" + email + '\'' +
                 '}';
+    		}
+	}
+
+
+</details>
+
+##### Clase Prestamo
+<details>
+
+
+	public class Prestamo {
+  	  private long id;
+   	  private Libro libro;
+   	  private Usuario usuario;
+  	  private int fechaPrestamo;
+  	  private int fechaDevolucion;
+
+    public Prestamo(long id, Libro libro, Usuario usuario, int fechaPrestamo, int fechaDevolucion) {
+        this.id = id;
+        this.libro = libro;
+        this.usuario = usuario;
+        this.fechaPrestamo = fechaPrestamo;
+        this.fechaDevolucion = fechaDevolucion;
     }
-}
+
+    public long getId() { return id; }
+    public Libro getLibro() { return libro; }
+    public Usuario getUsuario() { return usuario; }
+    public int getFechaPrestamo() { return fechaPrestamo; }
+    public int getFechaDevolucion() { return fechaDevolucion; }
+
+    public void setId(long id) { this.id = id; }
+    public void setLibro(Libro libro) { this.libro = libro; }
+    public void setUsuario(Usuario usuario) { this.usuario = usuario; }
+    public void setFechaPrestamo(int fechaPrestamo) { this.fechaPrestamo = fechaPrestamo; }
+    public void setFechaDevolucion(int fechaDevolucion) { this.fechaDevolucion = fechaDevolucion; }
+
+    @Override
+    public String toString() {
+        return "Prestamo{" +
+                "id=" + id +
+                ", libro=" + libro +
+                ", usuario=" + usuario +
+                ", fechaPrestamo=" + fechaPrestamo +
+                ", fechaDevolucion=" + fechaDevolucion +
+                '}';
+    		}
+	}
+
+
+</details>
+
+##### Clase Biblioteca
+<details>
+
+	import java.sql.Connection;
+	import java.sql.PreparedStatement;
+	import java.sql.ResultSet;
+	import java.util.ArrayList;
+	import java.util.List;
+	import java.util.Properties;
+	import java.util.Scanner;
+
+	public class Biblioteca extends PrestamoLibros {
+
+    	public record Libro(long id, String titulo, String autor, String usuario) {}
+
+	    public static void main(String[] args) {
+	        List<Libro> libros = new ArrayList<>();
+	
+	        String sql = "SELECT * FROM libros WHERE autor LIKE ?";
+	        Scanner sc = new Scanner(System.in);
+	        System.out.print("Introduce parte del nombre del autor: ");
+	        String autorFiltro = sc.nextLine();
+	
+	        Properties prop = getProperties("biblioteca.properties");
+	        try (
+	                Connection conn = getConnection(prop);
+	                PreparedStatement ps = conn.prepareStatement(sql);
+	        ) {
+	            ps.setString(1, "%" + autorFiltro + "%");
+	
+	            ResultSet rs = ps.executeQuery();
+	            while (rs.next()) {
+	                long id = rs.getLong(ID);
+	                String titulo = rs.getString(TITULO);
+	                String autor = rs.getString(AUTOR);
+	                String usuario = rs.getString(USUARIO);
+	                libros.add(new Libro(id, titulo, autor, usuario));
+	            }
+	        } catch (Exception e) {
+	            System.out.println("Error obteniendo libros: " + e.getMessage());
+	        }
+	
+	        libros.forEach(System.out::println);
+	    }
+	}
+
+
+</details>
+
+##### Clase PrestamoLibros
+<details>
+
+	package Biblioteca;
+
+	import java.io.FileInputStream;
+	import java.sql.Connection;
+	import java.sql.DriverManager;
+	import java.util.Properties;
+	
+	public abstract class PrestamoLibros {
+	    public static final String ID = "id";
+	    public static final String TITULO = "titulo";
+	    public static final String AUTOR = "autor";
+	    public static final String USUARIO = "usuario";
+
+	    public static Properties getProperties(String filename) {
+	        Properties props = new Properties();
+	        try (FileInputStream fis = new FileInputStream(filename)) {
+	            props.load(fis);
+	        } catch (Exception e) {
+	            System.out.println("Error leyendo config: " + e.getMessage());
+	        }
+	        return props;
+	    }
+	
+	    public static Connection getConnection(Properties props) throws Exception {
+	        String url = props.getProperty("url");
+	        String user = props.getProperty("user");
+	        String password = props.getProperty("password");
+	        return DriverManager.getConnection(url, user, password);
+	    }
+	}
+	
+
+</details>
+
+
+##### Properties
+<details>
+	
+	USE biblioteca;
+	
+	
+	CREATE TABLE usuarios (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	nombre_usuario VARCHAR(50) NOT NULL,
+	email VARCHAR(100) NOT NULL
+	);
+	
+	
+	CREATE TABLE libros (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	titulo VARCHAR(100) NOT NULL,
+	autor VARCHAR(60) NOT NULL
+	);
+	
+	
+	CREATE TABLE prestamos (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	libro_id INT NOT NULL,
+	usuario_id INT NOT NULL,
+	fecha_prestamo DATE NOT NULL,
+	fecha_devolucion DATE,
+	FOREIGN KEY (libro_id) REFERENCES libros(id),
+	FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+	);
+	
+	
+	SHOW TABLES;
+	
+	
+	DESCRIBE libros;
+	DESCRIBE usuarios;
+	DESCRIBE prestamos;
+	
+	
+	INSERT INTO usuarios(nombre_usuario, email) VALUES
+	("juan123", "juan@example.com"),
+	("ana456", "ana@example.com"),
+	("luis789", "luis@example.com");
+	
+	
+	INSERT INTO libros(titulo, autor) VALUES
+	("Cien Años de Soledad", "Gabriel García Márquez"),
+	("1984", "George Orwell"),
+	("El Principito", "Antoine de Saint-Exupéry"),
+	("Fahrenheit 451", "Ray Bradbury");
+	
+	
+	-- Suponiendo que los IDs generados empiezan en 1
+	INSERT INTO prestamos(libro_id, usuario_id, fecha_prestamo, fecha_devolucion) VALUES
+	(1, 1, '2025-05-01', '2025-05-20'),
+	(2, 2, '2025-05-10', NULL),
+	(3, 3, '2025-05-15', NULL);
+	
+	
+	SELECT p.id AS prestamo_id, l.titulo, u.nombre_usuario, p.fecha_prestamo, p.fecha_devolucion
+	FROM prestamos p
+	JOIN libros l ON p.libro_id = l.id
+	JOIN usuarios u ON p.usuario_id = u.id;
 
 </details>
 
