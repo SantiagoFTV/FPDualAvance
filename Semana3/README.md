@@ -2,7 +2,7 @@
 # Semana 3: Proyecto integrador y competencias
 ## Ejercicios Prácticos:
 
-### Ejercicio 3.1: Modelo Relacional
+### Ejercicio 3.1: Proyectos Integradores
 #### 
 Debes elegir uno de los siguientes proyectos y realizar un desarrollo mediante TDD. Para
 ello deberás realizar un desarrollo rápido independiente de elementos para
