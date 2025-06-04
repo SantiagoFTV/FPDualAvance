@@ -5,7 +5,7 @@ public class InventarioServicioTest {
 
     @Test
     public void testStockBajo() {
-        InventarioServicio servicio = new InventarioServicio(new ProductoDAOMemoria());
+        Inventario servicio = new Inventario(new ProductoDAOMemoria());
         servicio.registrarProducto(new Producto("Leche", 2, 1.50, "Lácteos"));
 
         assertEquals(1, servicio.stockBajo(5).size());

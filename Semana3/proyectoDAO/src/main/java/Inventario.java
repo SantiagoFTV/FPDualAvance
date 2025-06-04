@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class InventarioServicio {
+public class Inventario {
     private ProductoDAO dao;
 
-    public InventarioServicio(ProductoDAO dao) {
+    public Inventario(ProductoDAO dao) {
         this.dao = dao;
     }
 
