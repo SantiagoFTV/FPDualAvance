@@ -7,13 +7,13 @@
 Debes elegir uno de los siguientes proyectos y realizar un desarrollo mediante TDD. Para
 ello deberás realizar un desarrollo rápido independiente de elementos para
 posteriormente rafactorizar el código añadiendo un DAO que permita a la empresa
-realizar cambios y optimizacione
+realizar cambios y optimizaciones.
 ##### Tareas:
     Objetivo: Gestionar productos e inventario de una pequeña tienda.
     Requisitos:
     ✔ Registro de productos (nombre, stock, precio, categoría).
     ✔ Consulta de inventario y control de stock bajo.
-    ✔ Exportación a un fichero XML
+    ✔ Exportación a un fichero JSON
 
 ## Resolución
 #### Clase Producto
