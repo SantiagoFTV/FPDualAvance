@@ -3,7 +3,8 @@
 ## Ejercicios Prácticos:
 
 ### Ejercicio 3.1: Modelo Relacional
-#### Debes elegir uno de los siguientes proyectos y realizar un desarrollo mediante TDD. Para
+#### 
+Debes elegir uno de los siguientes proyectos y realizar un desarrollo mediante TDD. Para
 ello deberás realizar un desarrollo rápido independiente de elementos para
 posteriormente rafactorizar el código añadiendo un DAO que permita a la empresa
 realizar cambios y optimizacione
